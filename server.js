@@ -1,5 +1,7 @@
 const express = require('express');
 const app = express();
+const authRoutes = require('./api/auth');
+
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
 
